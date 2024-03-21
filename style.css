@@ -1,0 +1,85 @@
+body{
+    background-color: #eee;
+}
+ .links{
+    background-color: blueviolet;
+      width: auto;  
+      height: 50px; 
+      margin: -15px;
+      word-spacing: 100px;
+      display: flex; 
+      justify-content: space-between;
+      align-items: center;
+}
+a{
+    margin: 20px;
+    font-weight: bold;
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a:hover{
+    color: blue;
+    color:hotpink;cursor: pointer;
+
+}
+.pro{
+    display: inline-block;
+    color:beige;
+    font-weight: bold;
+}
+.prag{
+    color:black;
+    display: inline;
+    padding-left: 20px;
+}
+.container{
+    width: 100%;
+    height: 600px;
+    display: flex; 
+    justify-content:center ;
+    align-items: center;
+}
+.container .inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container .inputs .main{
+    
+    padding: 20px;
+    display: block;
+    margin-bottom: 30px;
+    width: 400px;
+    border-radius: 15px;
+    text-indent: 40%;
+}
+.range{
+    display: inline;
+    width: 200px; 
+    
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{  
+    color: #eee;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.btn{
+    background-color: deeppink;
+}
+.imgs{ 
+    width: 100%;
+    display: flex;
+}
+.img1{
+  width: 50%;
+}  
+img{
+    
+}
